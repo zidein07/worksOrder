@@ -1,0 +1,144 @@
+workList .thumbnail {
+  cursor: pointer;
+}
+.habitat {
+  width: 400px;
+  height: 400px;
+  background: #eee;
+  border: 1px solid #888;
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.blockRed,
+.blockBlue {
+  position: absolute;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.blockRed {
+  background: red;
+}
+.blockBlue {
+  background: blue;
+}
+.toggleMenu {
+  border: 1px solid #999;
+  position: fixed;
+  transition: ease-in 0.5s;
+  width: 200px;
+  height: 150px;
+}
+.toggleMenu button {
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  border: 1px solid #999;
+}
+.toggleMenu-left {
+  left: 0;
+}
+.toggleMenu-left button {
+  right: -70px;
+  top: -1px;
+}
+.toggleMenu-right {
+  right: 0;
+}
+.toggleMenu-right button {
+  left: -70px;
+  top: -1px;
+}
+.toggleMenu-top button {
+  top: -30px;
+  right: -1px;
+}
+.toggleMenu-bottom {
+  bottom: 0;
+}
+.toggleMenu-bottom button {
+  top: -30px;
+  left: -1px;
+}
+.laptop {
+  background: url('../../../assets/img/laptop.png') no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  position: relative;
+}
+.laptop .btnChangePosition {
+  width: 65px;
+  height: 65px;
+  background: #888;
+  border: 1px solid #333;
+  box-shadow: 0 0 1px #888;
+  position: absolute;
+}
+.laptop .btnChangePosition-left {
+  left: 58px;
+  top: 80px;
+}
+.laptop .btnChangePosition-right {
+  right: 58px;
+  top: 80px;
+}
+.laptop .btnChangePosition-bottom {
+  bottom: 179px;
+  left: 140px;
+}
+.sliderContent {
+  border: 1px solid #888;
+  height: 400px;
+  position: relative;
+  box-shadow: 0 3px 4px #777;
+  width: 800px;
+  overflow: hidden;
+}
+.sliderContent .sliderAllImg {
+  width: 10000em;
+  position: absolute;
+  left: 20px;
+}
+.sliderContent .sliderButton {
+  width: 50px;
+  height: 50px;
+  background: #555;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1em;
+  opacity: .5;
+  cursor: pointer;
+  border-radius: 50px;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 0 2px 4px #000;
+  position: absolute;
+  top: 175px;
+}
+.sliderContent li {
+  padding: 0;
+}
+.sliderContent .sliderButton:hover {
+  opacity: .8;
+  background: #999;
+  color: #333;
+  text-shadow: 0 0 2px #fff;
+}
+.sliderContent .sliderButton-toRight {
+  right: 0;
+}
+.sliderContent .sliderButton-toLeft {
+  left: 0;
+}
+.sliderContent .slideImg {
+  width: 800px;
+  height: 400px;
+}
