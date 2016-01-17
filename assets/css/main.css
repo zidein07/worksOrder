@@ -1,144 +1,82 @@
-workList .thumbnail {
-  cursor: pointer;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700&subset=latin,cyrillic,cyrillic-ext");
+body {
+  font-family: 'Open Sans', sans-serif;
 }
-.habitat {
-  width: 400px;
-  height: 400px;
-  background: #eee;
-  border: 1px solid #888;
+#header {
   position: relative;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.blockRed,
-.blockBlue {
-  position: absolute;
-  margin: auto;
-  width: 20px;
-  height: 20px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.blockRed {
-  background: red;
-}
-.blockBlue {
-  background: blue;
-}
-.toggleMenu {
-  border: 1px solid #999;
-  position: fixed;
-  transition: ease-in 0.5s;
-  width: 200px;
-  height: 150px;
-}
-.toggleMenu button {
-  width: 70px;
-  height: 30px;
-  position: absolute;
-  border: 1px solid #999;
-}
-.toggleMenu-left {
-  left: 0;
-}
-.toggleMenu-left button {
-  right: -70px;
-  top: -1px;
-}
-.toggleMenu-right {
-  right: 0;
-}
-.toggleMenu-right button {
-  left: -70px;
-  top: -1px;
-}
-.toggleMenu-top button {
-  top: -30px;
-  right: -1px;
-}
-.toggleMenu-bottom {
-  bottom: 0;
-}
-.toggleMenu-bottom button {
-  top: -30px;
-  left: -1px;
-}
-.laptop {
-  background: url('../../../assets/img/laptop.png') no-repeat;
-  background-size: 100% 100%;
-  height: 600px;
-  position: relative;
-}
-.laptop .btnChangePosition {
-  width: 65px;
-  height: 65px;
-  background: #888;
-  border: 1px solid #333;
-  box-shadow: 0 0 1px #888;
-  position: absolute;
-}
-.laptop .btnChangePosition-left {
-  left: 58px;
-  top: 80px;
-}
-.laptop .btnChangePosition-right {
-  right: 58px;
-  top: 80px;
-}
-.laptop .btnChangePosition-bottom {
-  bottom: 179px;
-  left: 140px;
-}
-.sliderContent {
-  border: 1px solid #888;
-  height: 400px;
-  position: relative;
-  box-shadow: 0 3px 4px #777;
-  width: 800px;
-  overflow: hidden;
-}
-.sliderContent .sliderAllImg {
-  width: 10000em;
-  position: absolute;
-  left: 20px;
-}
-.sliderContent .sliderButton {
-  width: 50px;
   height: 50px;
-  background: #555;
-  color: #fff;
-  font-size: 50px;
-  text-align: center;
-  line-height: 1em;
-  opacity: .5;
-  cursor: pointer;
-  border-radius: 50px;
-  text-shadow: 1px 1px 1px #000;
-  box-shadow: 0 2px 4px #000;
+}
+#header #headerChild,
+#header #logo {
+  font-size: 20px;
+  line-height: 2.5em;
+}
+#header #headerChild li {
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 2px;
+}
+#header #headerChild a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #23527c;
+}
+#header #logo {
   position: absolute;
-  top: 175px;
+  left: 10px;
 }
-.sliderContent li {
+#header .logoWord {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#textAboutMe {
+  text-align: center;
+  line-height: .5em;
+  padding: 160px 0;
+}
+#textAboutMe h4 {
+  font-size: 1.8em;
+  color: #353c47;
+  font-weight: 300;
+}
+#myWork {
+  position: relative;
+  text-align: center;
+}
+#myWork .workThumb {
   padding: 0;
+  background: #14B3A1;
 }
-.sliderContent .sliderButton:hover {
-  opacity: .8;
-  background: #999;
-  color: #333;
-  text-shadow: 0 0 2px #fff;
+#myWork .workThumb .thumb-img {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 !important;
 }
-.sliderContent .sliderButton-toRight {
-  right: 0;
+#myWork .workThumb img {
+  box-shadow: 0 0 3px #444;
 }
-.sliderContent .sliderButton-toLeft {
-  left: 0;
+#myWork .workThumb .hoverThumb {
+  top: 0;
+  padding-top: 12.5rem;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.1rem;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out 0s;
+  position: absolute;
+  opacity: 0;
+  color: #252525;
+  background-color: #f1f1f1;
+  cursor: pointer;
 }
-.sliderContent .slideImg {
-  width: 800px;
-  height: 400px;
+#myWork .workThumb .hoverThumb:hover {
+  opacity: .9;
+}
+#contact {
+  color: #71767E;
+  letter-spacing: 0.09em;
+  text-align: center;
 }

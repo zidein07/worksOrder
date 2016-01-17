@@ -1,0 +1,91 @@
+@textAboutMeHeight: 400px;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+  position: relative;
+  height: 50px;
+  #headerChild, #logo {
+    font-size: 20px;
+    line-height: 2.5em;
+
+  }
+  #headerChild {
+    li {
+      padding-right: 8px;
+      padding-left: 8px;
+      padding-top: 2px;
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+        border-bottom: 1px solid #23527c;
+      }
+    }
+  }
+  #logo {
+    position: absolute;
+    left: 10px;
+  }
+  .logoWord {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline
+  }
+}
+
+#textAboutMe {
+  text-align: center;
+  line-height: .5em;
+  padding: 160px 0;
+  h4 {
+    font-size: 1.8em;
+    color: #353c47;
+    font-weight: 300;
+  }
+}
+
+#myWork {
+  position: relative;
+  text-align: center;
+  .workThumb {
+    padding: 0;
+    background: #14B3A1;
+    .thumb-img {
+      max-width: 100%;
+      position: relative;
+      overflow: hidden;
+      padding: 0 !important;
+    }
+    img {
+      box-shadow: 0 0 3px #444;
+    }
+    .hoverThumb {
+      top: 0;
+      padding-top: 12.5rem;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      letter-spacing: 0.1rem;
+      line-height: 1.4em;
+      text-transform: uppercase;
+      transition: all 0.3s ease-out 0s;
+      position: absolute;
+      opacity: 0;
+      color: #252525;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+    .hoverThumb:hover {
+      opacity: .9;
+    }
+  }
+}
+
+#contact {
+  color: #71767E;
+  letter-spacing: 0.09em;
+  text-align: center;
+}

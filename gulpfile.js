@@ -45,7 +45,7 @@ gulp.task('connect', ['less'], function () {
     notify: false,
     server: './'
   });
-  gulp.watch(["./src/less/main.less", "./src/less/*/*.less"], ['less']);
+  gulp.watch(["./src/less/main.less", "./src/less/**/*.less"], ['less']);
 });
 
 gulp.task('default',['connect']);
