@@ -29,15 +29,18 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
-#textAboutMe {
+.textAboutMe {
   text-align: center;
   line-height: .5em;
   padding: 160px 0;
 }
-#textAboutMe h4 {
-  font-size: 1.8em;
+.textAboutMe h4 {
+  text-transform: lowercase;
+  width: 70%;
   color: #353c47;
+  font-size: 1.8em;
   font-weight: 300;
+  margin: 0 auto;
 }
 #myWork {
   position: relative;
@@ -52,9 +55,6 @@ body {
   position: relative;
   overflow: hidden;
   padding: 0 !important;
-}
-#myWork .workThumb img {
-  box-shadow: 0 0 3px #444;
 }
 #myWork .workThumb .hoverThumb {
   top: 0;
@@ -75,8 +75,19 @@ body {
 #myWork .workThumb .hoverThumb:hover {
   opacity: .9;
 }
+#myWork .workThumb .bold {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+}
 #contact {
   color: #71767E;
   letter-spacing: 0.09em;
   text-align: center;
+}
+.no-padding {
+  padding: 0;
+  margin: 0;
 }

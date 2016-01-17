@@ -36,14 +36,17 @@ body {
   }
 }
 
-#textAboutMe {
+.textAboutMe {
   text-align: center;
   line-height: .5em;
   padding: 160px 0;
   h4 {
-    font-size: 1.8em;
+    text-transform: lowercase;
+    width: 70%;
     color: #353c47;
+    font-size: 1.8em;
     font-weight: 300;
+    margin: 0 auto;
   }
 }
 
@@ -58,9 +61,6 @@ body {
       position: relative;
       overflow: hidden;
       padding: 0 !important;
-    }
-    img {
-      box-shadow: 0 0 3px #444;
     }
     .hoverThumb {
       top: 0;
@@ -77,9 +77,16 @@ body {
       color: #252525;
       background-color: #f1f1f1;
       cursor: pointer;
+      &:hover {
+        opacity: .9;
+      }
     }
-    .hoverThumb:hover {
-      opacity: .9;
+    .bold {
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3em;
+      letter-spacing: 0.07em;
+      font-weight: 700;
     }
   }
 }
@@ -88,4 +95,9 @@ body {
   color: #71767E;
   letter-spacing: 0.09em;
   text-align: center;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
 }
