@@ -16,11 +16,12 @@
   ],
   "dependencies": {
     "angular": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
     "angular-local-storage": "~0.2.3",
     "angular-route": "~1.4.8",
     "angular-translate": "~2.8.1",
     "bootstrap": "~3.3.6",
-    "jquery": "~2.1.4",
-    "angular-bootstrap": "~0.14.3"
+    "font-awesome-less": "~0.1.0",
+    "jquery": "~2.1.4"
   }
 }

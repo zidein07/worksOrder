@@ -1,3 +1,4 @@
+@import "../../vendor/font-awesome-less/css/font-awesome.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700&subset=latin,cyrillic,cyrillic-ext");
 body {
   font-family: 'Open Sans', sans-serif;
@@ -33,6 +34,7 @@ body {
   text-align: center;
   line-height: .5em;
   padding: 160px 0;
+  width: 100%;
 }
 .textAboutMe h4 {
   text-transform: lowercase;
@@ -43,7 +45,6 @@ body {
   margin: 0 auto;
 }
 #myWork {
-  position: relative;
   text-align: center;
 }
 #myWork .workThumb {
@@ -86,6 +87,7 @@ body {
   color: #71767E;
   letter-spacing: 0.09em;
   text-align: center;
+  padding-bottom: 10px;
 }
 .no-padding {
   padding: 0;
