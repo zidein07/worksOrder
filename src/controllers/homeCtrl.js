@@ -9,37 +9,37 @@ app.controller('HomeCtrl', function ($scope, $http, $location) {
   ];
   $scope.portfileData = [
     {
-      src: 'http://logotipka.ru/images/stories/skachat_img/zhiv_ptici_nacec/enimals14.jpg',
+      src: 'http://www.templates.com/wp-content/uploads/2012/03/Freev-Website-Template1.jpg',
       bkgColor: bkgColor[0],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
     },
     {
-      src: 'http://lorempixel.com/300/300/',
+      src: 'http://www.tidyguide.com/wp-content/uploads/2011/08/particle-website-xhtml-css-templates.jpg',
       bkgColor: bkgColor[1],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
     },
     {
-      src: 'http://logotipka.ru/images/stories/skachat_img/stars/star_33.png',
+      src: 'http://cssmenumaker.com/sites/default/files/blog_list_images/screen_shot_2013-02-11_at_9.12.04_pm.png',
       bkgColor: bkgColor[2],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
     },
     {
-      src: 'http://lorempixel.com/300/300/',
+      src: 'http://premiumcoding.com/wp-content/uploads/2012/03/radial-website-template-home-preview-full.jpg',
       bkgColor: bkgColor[3],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
     },
     {
-      src: 'http://logotipka.ru/images/stories/skachat_img/stars/star_33.png',
+      src: 'http://www.templates.com/wp-content/uploads/2010/01/Free-Website-Template2.jpg',
       bkgColor: bkgColor[4],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
     },
     {
-      src: 'http://lorempixel.com/300/300/',
+      src: 'http://www.buytemplates.net/img/display_images/d-templates-site-ente667-01.jpg',
       bkgColor: bkgColor[5],
       titleBold: 'WesternBike website',
       titleSecond: 'Web design'
