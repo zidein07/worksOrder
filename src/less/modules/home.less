@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  transition: all ease-out 0.5s;
 }
 
 #header {
@@ -13,21 +14,26 @@ body {
 
   }
   #headerChild {
+    margin: 5px 25px;
     li {
       padding-right: 8px;
       padding-left: 8px;
       padding-top: 2px;
-    }
-    a {
-      &:hover {
-        text-decoration: none;
-        border-bottom: 1px solid #23527c;
+      a {
+        color: #71767E;
+        &:hover {
+          color: darken(#71767E, 10%);
+          text-decoration: none;
+        }
       }
     }
   }
   #logo {
     position: absolute;
     left: 10px;
+    img {
+      width: 80px;
+    }
   }
   .logoWord {
     color: red;
@@ -38,9 +44,11 @@ body {
 
 .textAboutMe {
   text-align: center;
-  line-height: .5em;
-  padding: 160px 0;
+  padding: 145px 0;
   width: 100%;
+  position: relative;
+  transition: all ease-out 1s;
+  opacity: 0;
   h4 {
     text-transform: lowercase;
     width: 70%;
@@ -53,6 +61,10 @@ body {
 
 #myWork {
   text-align: center;
+  transition: all ease-out 1s;
+  padding: 0;
+  margin-top: 100px;
+  opacity: 0;
   .workThumb {
     padding: 0;
     background: #14B3A1;

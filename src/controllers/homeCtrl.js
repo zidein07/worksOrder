@@ -45,4 +45,10 @@ app.controller('HomeCtrl', function ($scope, $http, $location) {
       titleSecond: 'Web design'
     }
   ];
+  var myWork = $('#myWork');
+  var myText = $('.textAboutMe');
+  setTimeout(function () {
+    myWork.css({'margin-top': 0 + 'px', 'opacity': 1});
+    myText.css({'opacity': 1, 'padding': '160px 0'});
+  }, 100);
 });

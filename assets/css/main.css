@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700&subset=latin,cyrillic,cyrillic-ext");
 body {
   font-family: 'Open Sans', sans-serif;
+  transition: all ease-out 0.5s;
 }
 #header {
   position: relative;
@@ -12,18 +13,27 @@ body {
   font-size: 20px;
   line-height: 2.5em;
 }
+#header #headerChild {
+  margin: 5px 25px;
+}
 #header #headerChild li {
   padding-right: 8px;
   padding-left: 8px;
   padding-top: 2px;
 }
-#header #headerChild a:hover {
+#header #headerChild li a {
+  color: #71767E;
+}
+#header #headerChild li a:hover {
+  color: #595d63;
   text-decoration: none;
-  border-bottom: 1px solid #23527c;
 }
 #header #logo {
   position: absolute;
   left: 10px;
+}
+#header #logo img {
+  width: 80px;
 }
 #header .logoWord {
   color: red;
@@ -32,9 +42,11 @@ body {
 }
 .textAboutMe {
   text-align: center;
-  line-height: .5em;
-  padding: 160px 0;
+  padding: 145px 0;
   width: 100%;
+  position: relative;
+  transition: all ease-out 1s;
+  opacity: 0;
 }
 .textAboutMe h4 {
   text-transform: lowercase;
@@ -46,6 +58,10 @@ body {
 }
 #myWork {
   text-align: center;
+  transition: all ease-out 1s;
+  padding: 0;
+  margin-top: 100px;
+  opacity: 0;
 }
 #myWork .workThumb {
   padding: 0;

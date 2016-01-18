@@ -1,10 +1,6 @@
 <div id="header">
     <a href="/#/" id="logo">
-        Z
-        <small class="logoWord">I</small>
-        D
-        <small class="logoWord">E</small>
-        IN
+        <img src="/assets/img/zidein.png">
     </a>
     <ul class="list list-inline text-right" id="headerChild">
         <li class=""><a href="/#/about">About</a></li>
@@ -17,10 +13,10 @@
     </h4>
 </div>
 <div id="myWork" class="container-fluid">
-    <div ng-repeat="item in portfileData" class="col-xs-12 col-md-6 col-lg-3 workThumb"
+    <div ng-repeat="item in portfileData" class="col-xs-12 col-md-6 col-lg-4 workThumb"
          style="background: {{item.bkgColor}}">
         <div class="thumb-img">
-            <img src="{{item.src}}">
+            <img ng-src="{{item.src}}">
         </div>
         <div class="hoverThumb">
             <span class="bold">{{item.titleBold}}</span><br>
